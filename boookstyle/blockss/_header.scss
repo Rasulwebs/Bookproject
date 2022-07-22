@@ -1,0 +1,49 @@
+@import "./varrible";
+@import "./container";
+@import "./fontsbook";
+
+header {
+  width: 100%;
+  background-color: $gr;
+  height: 120px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+    .nav {
+      &__links {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        a {
+          text-decoration: none;
+          font-family: "pop-l";
+          color: #e9e9e9;
+          opacity: 0.8;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 200%;
+          &:hover {
+            color: white;
+            opacity: 1;
+          }
+        }
+      }
+      &__mask-link a {
+        border: 1px solid #e9e9e9;
+        opacity: 0.8;
+        padding: 10px 24px 10px 24px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+      }
+    }
+  }
+}

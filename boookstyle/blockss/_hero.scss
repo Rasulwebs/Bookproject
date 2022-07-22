@@ -1,0 +1,162 @@
+@import "./container";
+@import "./fontsbook";
+@import "./varrible";
+
+.hero {
+  width: 100%;
+  background-color: $bg;
+
+  &__cont {
+    padding-top: 98px;
+  }
+  &__text {
+    font-family: "gent-i";
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    word-spacing: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+  }
+  &__pojo p {
+    padding-right: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 150%;
+    color: $gr;
+    font-family: "gent-r";
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-family: "pop-m";
+      color: #212121;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 200%;
+
+      span {
+        color: $gr;
+        padding-right: 8px;
+      }
+    }
+  }
+  &__btn {
+    width: 510px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__gr-btn {
+    width: 209px;
+    height: 52px;
+    left: 466px;
+    top: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px 10px 24px;
+    background-color: $gr;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid $gr;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: white;
+    font-family: "pop-m";
+
+    &:hover {
+      background-color: rgb(83, 172, 145);
+    }
+    &:active {
+      background-color: rgb(7, 134, 107);
+    }
+  }
+  &__w-btn {
+    width: 251px;
+    height: 52px;
+    left: 466px;
+    top: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px 10px 24px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid $gr;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: $gr;
+    font-family: "pop-m";
+    margin-left: 60px;
+
+    &:hover {
+      background-color: rgb(225, 255, 248);
+    }
+    &:active {
+      background-color: ghostwhite;
+    }
+  }
+
+  &__images {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        cursor: pointer;
+    }
+
+    &__left-img{
+        span{
+            position: relative;
+            left: -30px;
+        }
+    }
+    
+    &__l-img{
+        position: relative;
+        top: 100px;
+    }
+
+    &__r-img{
+        position: relative;
+        top: 100px;
+    }
+    &__right-img{
+        span{
+            position: relative;
+            right: -30px;
+        }
+    }
+    &__center{
+       span{
+        position: relative;
+        top: -80px;
+       }
+    }
+    
+   
+  }
+
+
+  
+ 
+     
+ }
+
+

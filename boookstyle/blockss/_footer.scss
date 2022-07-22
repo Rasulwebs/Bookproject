@@ -1,0 +1,81 @@
+@import "./container";
+@import "./fontsbook";
+@import "./varrible";
+
+.cont {
+  display: flex;
+  &__rll {
+    width: 700px;
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      p {
+        font-family: "pop-m";
+        color: #212121;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+        padding-left: 15px;
+      }
+
+      margin-bottom: 50px;
+    }
+    &__mss {
+      img {
+        margin-right: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__lul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    ul {
+      .cont__lul__linkss__lis-t {
+        font-family: "pop-m";
+        color: #212121;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+      }
+      li {
+        list-style-type: none;
+        color: #949494;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 200%;
+
+        a {
+          text-decoration: none;
+          font-family: "pop-l";
+        }
+      }
+    }
+  }
+  &__end {
+    width: 100%;
+    background-color: $gr;
+
+    &__text {
+      display: flex;
+      width: 400px;
+      height: 60px;
+      margin: auto;
+      align-items: center;
+
+      p {
+        padding-left: 20px;
+        font-family: "pop-m";
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 200%;
+      }
+    }
+  }
+}
